@@ -1,0 +1,151 @@
+<html>
+    <head>
+        <style>
+
+        	* {
+        		box-sizing: border-box;
+        	}
+
+			@-webkit-keyframes cycle {
+				0%   { background: #FFE07F }
+				25%  { background: #F92772 }
+				50%  { background: #66D9EF }
+				100% { background: #AE81FF }
+			}
+			@-moz-keyframes cycle {
+				0%   { background: #FFE07F }
+				25%  { background: #F92772 }
+				50%  { background: #66D9EF }
+				100% { background: #AE81FF }
+			}
+			@-o-keyframes cycle {
+				0%   { background: #FFE07F }
+				25%  { background: #F92772 }
+				50%  { background: #66D9EF }
+				100% { background: #AE81FF }
+			}
+			@keyframes cycle {
+				0%   { background: #FFE07F }
+				25%  { background: #F92772 }
+				50%  { background: #66D9EF }
+				100% { background: #AE81FF }
+			}
+
+            html,
+            body {
+            	max-width: 100%;
+            	margin: 0;
+                background: #FFE07F;
+                color: white;
+                text-align: center;
+				-webkit-animation: cycle 5s infinite;
+				-moz-animation:    cycle 5s infinite;
+				-o-animation:      cycle 5s infinite;
+				animation:         cycle 5s infinite;
+				font-family: 'Helvetica Neue';
+				font-weight: 500;
+				line-height: 1;
+				padding: 5px;
+            }
+
+            a {
+            	color: inherit;
+            }
+
+            .wrapper {
+            	max-width: 720px;
+            	margin: auto;
+            }
+
+            img {
+                max-width: 100%;
+                margin: 40px 0;
+            }
+
+            h1 {
+				color: white;
+				font-size: 10rem;
+				font-weight: 500;
+				margin: 0;
+            }
+
+            .header {
+            	width: 100%;
+            	padding: 5rem 0;
+            	background-size: cover;
+            	position: relative;
+            	border-radius: 6px;
+            	display: inline-block;
+            	overflow: hidden;
+            }
+
+            .header--full {
+            	padding: 35vh 0;
+            }
+
+            .header:before {
+            	content: "";
+            	background: rgba(0,0,0,.5);
+            	top: 0;
+            	left: 0;
+            	width: 100%;
+            	height: 100%;
+            	z-index: 1;
+            	position: absolute;
+            }
+
+            .contents {
+            	z-index: 2;
+            	position: relative;
+            	max-width: 650px;
+            	margin: 0 auto;
+            }
+
+        </style>
+    </head>
+    <body>
+    	<div class="header header--full" style="background-image: url(images/crazyshaft.jpg)">
+    		<div class="contents">
+	    		<h1>future</h1>
+	    		<p>A collection of high-rez photos from the future by <a href="http://twitter.com/clintonhalpin">@clintonhalpin</a></p>
+	    	</div>
+    	</div>
+    	<div class="wrapper">
+			<a href="images/arithma.jpg"><img src="images/arithma.jpg"></a>
+			<a href="images/astronaut.jpg"><img src="images/astronaut.jpg"></a>
+			<a href="images/brain.jpg"><img src="images/brain.jpg"></a>
+			<a href="images/cell.jpg"><img src="images/cell.jpg"></a>
+			<a href="images/crazyshaft.jpg"><img src="images/crazyshaft.jpg"></a>
+			<a href="images/diagram.jpg"><img src="images/diagram.jpg"></a>
+			<a href="images/earthscore.jpg"><img src="images/earthscore.jpg"></a>
+			<a href="images/electricgenerator.jpg"><img src="images/electricgenerator.jpg"></a>
+			<a href="images/graph.jpg"><img src="images/graph.jpg"></a>
+			<a href="images/hugetelescope.jpg"><img src="images/hugetelescope.jpg"></a>
+			<a href="images/laser.jpg"><img src="images/laser.jpg"></a>
+			<a href="images/lasermachine.jpg"><img src="images/lasermachine.jpg"></a>
+			<a href="images/machine.jpg"><img src="images/machine.jpg"></a>
+			<a href="images/machine2.jpg"><img src="images/machine2.jpg"></a>
+			<a href="images/microscope.jpg"><img src="images/microscope.jpg"></a>
+			<a href="images/microscope2.jpg"><img src="images/microscope2.jpg"></a>
+			<a href="images/monkey.jpg"><img src="images/monkey.jpg"></a>
+			<a href="images/rocketguy.jpg"><img src="images/rocketguy.jpg"></a>
+			<a href="images/scienceguys.jpg"><img src="images/scienceguys.jpg"></a>
+			<a href="images/scientist.jpg"><img src="images/scientist.jpg"></a>
+			<a href="images/shuttle.jpg"><img src="images/shuttle.jpg"></a>
+			<a href="images/smartcar_vintage.jpg"><img src="images/smartcar_vintage.jpg"></a>
+			<a href="images/spaceship.jpg"><img src="images/spaceship.jpg"></a>
+			<a href="images/spacetravelers.jpg"><img src="images/spacetravelers.jpg"></a>
+			<a href="images/spiral.jpg"><img src="images/spiral.jpg"></a>
+			<a href="images/strange.jpg"><img src="images/strange.jpg"></a>
+			<a href="images/thingsofscience.jpg"><img src="images/thingsofscience.jpg"></a>
+			<a href="images/turbogenerator.jpg"><img src="images/turbogenerator.jpg"></a>
+			<a href="images/usa.jpg"><img src="images/usa.jpg"></a>
+		</div>
+		<div class="header header--full" style="background-image: url(images/scientist.jpg)">
+    		<div class="contents">
+	    		<h2>the future is now</h2>
+	    		<p>by <a href="http://twitter.com/clintonhalpin">@clintonhalpin</a></p>
+	    	</div>
+    	</div>
+    </body>
+</html>
